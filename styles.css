@@ -581,7 +581,7 @@ header {
     top: 60px;
     right: -100%;
     width: 200px;
-    height: calc(50% - 90px);
+    height: calc(70% - 60px);
     padding-top: 1rem;
     transition: right 0.3s ease;
     box-shadow: -2px 0 5px rgba(0,0,0,0.7);
