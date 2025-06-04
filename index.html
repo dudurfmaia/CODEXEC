@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CODEXEC - Segurança Cibernética</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <header id="header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo">
+        <img src="./Archivess/logo teste.png" alt="Logo CODEXEC">
+        
+      </a>
+      <div class="menu-toggle" id="menu-toggle" onclick="toggleMenu()">☰</div>
+      <nav class="nav-menu" id="nav-menu">
+        <ul id="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#cases">Cases</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    
+    </div>
+  </header>
+
+  
+  <section id="inicio" class="hero-section">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="Archivess/vecteezy_data-neural-network-ai-technology-cloud-computing-bits_21723025.mp4" type="video/mp4" />
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <div class="hero-content container">
+      <h1>Executando segurança, codificando confiança.</h1>
+      <p>Proteção digital estratégica para sua empresa com um mundo cada vez mais conectado e vulnerável.</p>
+      <div class="hero-buttons">
+        <a href="#sobre" class="btn btn-secondary">Saiba mais</a>
+        <a href="#contato" class="btn btn-secondary">Fale conosco</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="sobre" class="section sobre-section container">
+    <h2>Sobre a CODEXEC</h2>
+    <p>Fundada para proteger empresas em um mundo digital, a CODEXEC oferece soluções avançadas em segurança cibernética para garantir a integridade e a confiança dos seus dados.</p>
+    <div class="missao-visao-valores">
+      <div class="item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/target.png" alt="Missão" />
+        <h3>Missão</h3>
+        <p>Proteger nossos clientes com soluções inovadoras e eficazes em segurança digital.</p>
+      </div>
+      <div class="item">
+        <img src="https://img.icons8.com/?size=100&id=986&format=png&color=ffffff" alt="Visão" />
+        <h3>Visão</h3>
+        <p>Ser referência global em segurança cibernética, antecipando ameaças e inovando constantemente.</p>
+      </div>
+      <div class="item">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/handshake.png" alt="Valores" />
+        <h3>Valores</h3>
+        <p>Integridade, confiança, inovação e compromisso com a segurança dos nossos clientes.</p>
+      </div>
+    </div>
+    <div class="sobre-image">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Data Center" />
+    </div>
+  </section>
+
+
+  <section id="servicos" class="section servicos-section container">
+    <h2>Serviços</h2>
+    <div class="servicos-grid">
+      <div class="servico-item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/hacker.png" alt="Pentest" />
+        <h3>Pentest (Testes de invasão)</h3>
+        <p>Identificação de vulnerabilidades através de testes controlados para garantir a segurança.</p>
+      </div>
+      <div class="servico-item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/network.png" alt="Monitoramento de Rede" />
+        <h3>Monitoramento de Rede</h3>
+        <p>Supervisão contínua para detectar e responder a ameaças em tempo real.</p>
+      </div>
+      <div class="servico-item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/consultation.png" alt="Consultoria em Segurança Digital" />
+        <h3>Consultoria em Segurança Digital</h3>
+        <p>Orientação especializada para fortalecer a proteção digital da sua empresa.</p>
+      </div>
+      <div class="servico-item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/firewall.png" alt="Implementação de Firewalls" />
+        <h3>Implementação de Firewalls</h3>
+        <p>Configuração e manutenção de firewalls para proteger sua rede contra acessos não autorizados.</p>
+      </div>
+      <div class="servico-item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/bug.png" alt="Análise de Vulnerabilidades" />
+        <h3>Análise de Vulnerabilidades</h3>
+        <p>Avaliação detalhada para identificar e corrigir falhas de segurança.</p>
+      </div>
+      <div class="servico-item">
+        <img src="https://img.icons8.com/ios-filled/50/00ffff/security-guard.png" alt="SOC as a Service" />
+        <h3>SOC as a Service</h3>
+        <p>Monitoramento especializado 24/7 para proteção contínua da sua empresa.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="tecnologias" class="section tecnologias-section container">
+    <h2>Tecnologias que Utilizamos</h2>
+    <div class="tecnologias-logos">
+      <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" title="Python" />
+      <img src="https://img.icons8.com/?size=100&id=101665&format=png&color=000000" alt="Kali-linux">
+      <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="Docker" title="Docker" />
+      <img src="https://img.icons8.com/?size=100&id=9b5wowKIlo9d&format=png&color=000000" alt="Nmap" title="Nmap" />
+      <img src="https://cdn.worldvectorlogo.com/logos/wireshark.svg" alt="Wireshark" title="Wireshark" />
+      <img src="https://img.icons8.com/?size=100&id=PW0ChfedZvTh&format=png&color=000000" alt="Metasploit">
+    </div>
+  </section>
+
+ 
+  <section id="cases" class="section cases-section container">
+    <h2>Cases e Pesquisas</h2>
+    <div class="cases-gallery">
+      <div class="case-card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Case 1" />
+        <h3>Projeto de Pentest Corporativo</h3>
+        <p>Realizamos testes de invasão para identificar vulnerabilidades críticas.</p>
+      </div>
+      <div class="case-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Case 2" />
+        <h3>Monitoramento Avançado de Redes</h3>
+        <p>Implementação de sistemas para detecção e resposta rápida a ameaças.</p>
+      </div>
+      <div class="case-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Case 3" />
+        <h3>Pesquisa em Segurança Digital</h3>
+        <p>Estudo aprofundado sobre novas técnicas de proteção e mitigação.</p>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="blog" class="section blog-section container">
+    <h2>Blog</h2>
+    <div class="blog-articles">
+      <article class="blog-article">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKXTicqx-S_/?img_index=1" data-instgrm-version="14" style="width:100%; max-width:540px; margin:auto;">
+        </blockquote>
+        <div class="article-content">
+          <h3>Ataque ao hospital português (Entenda o caso)</h3>
+          <p class="category">Segurança</p>
+          <a target="_blank" href="https://www.instagram.com/p/DKXTicqx-S_/?img_index=1" class="btn btn-primary btn-sm">Ver mais</a>
+        </div>
+      </article>
+      <article class="blog-article">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKaEOjHx-ci/" data-instgrm-version="14" style="width:100%; max-width:540px; margin:auto;">
+        </blockquote>
+        <div class="article-content">
+          <h3>Veo 3: a nova arma da desinformação digital?</h3>
+          <p class="category">Tecnologia</p>
+          <a target="_blank" href="https://www.instagram.com/p/DKaEOjHx-ci/" class="btn btn-primary btn-sm">Entenda os riscos</a>
+        </div>
+      </article>
+      <article class="blog-article">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKSP_cLqlOz/" data-instgrm-version="14" style="width:100%; max-width:540px; margin:auto;">
+        </blockquote>
+        <div class="article-content">
+          <h3>CID: os três pilares da segurança da informação.</h3>
+          <p class="category">Análise</p>
+          <a target="_blank" href="https://www.instagram.com/p/DKSP_cLqlOz/" class="btn btn-primary btn-sm">Ver mais</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+  <section id="contato" class="section contato-section container">
+    <h2>Contato</h2>
+    <form id="contact-form" class="contact-form" action="#" method="get">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="assunto">Assunto</label>
+      <input type="text" id="assunto" name="assunto" required />
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+    </form>
+    <div class="contact-info">
+      <p><strong>Telefone:</strong> (81) 1234-5678</p>
+      <p><strong>Email:</strong> contato@codexec.com.br</p>
+      <p><strong>Localização:</strong> Recife - PE, Brasil</p>
+    </div>
+    
+  </section>
+
+ 
+  <footer class="footer">
+    <div class="footer-logo-desc">
+      <img src="./Archivess/logo teste.png" alt="Logo CODEXEC" />
+      <p>CODEXEC - Segurança cibernética para um mundo conectado e protegido.</p>
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#cases">Cases</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="footer-services">
+      <h4>Serviços principais</h4>
+      <ul>
+        <li><a href="#servicos">Pentest</a></li>
+        <li><a href="#servicos">Monitoramento de Rede</a></li>
+        <li><a href="#servicos">Consultoria</a></li>
+        <li><a href="#servicos">Firewalls</a></li>
+        <li><a href="#servicos">Análise de Vulnerabilidades</a></li>
+        <li><a href="#servicos">SOC as a Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-legal">
+      <ul>
+        <li><a href="#">Termos</a></li>
+        <li><a href="#">Política de Privacidade</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png" alt="Facebook" /></a>
+      <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png" alt="Twitter" /></a>
+      <a href="#" aria-label="LinkedIn"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn" /></a>
+      <a href="https://www.instagram.com/code.xec/" target="_blank" aria-label="Instagram"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram.png" alt=""></a>
+    </div>
+    <p class="ft-direitos">© 2025 CODEXEC. Todos os direitos reservados.</p>
+  </footer>
+
+  
+  <script src="script.js"></script>
+  <script async src="//www.instagram.com/embed.js"></script>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active'); 
+    }
+  </script>
+</body>
+</html>
